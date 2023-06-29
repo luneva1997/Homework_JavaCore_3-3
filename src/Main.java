@@ -6,8 +6,8 @@ import java.util.zip.ZipInputStream;
 
 public class Main {
     public static void main(String[] args) {
-        openZip("Games/savegames/zip.zip", "Games/savegames/");
-        GameProgress game = openProgress("Games/savegames/save0");
+        openZip("C:/Users/whats/Desktop/Games/savegames/zip.zip", "C:/Users/whats/Desktop/Games/savegames/");
+        GameProgress game = openProgress("C:/Users/whats/Desktop/Games/savegames/save0");
         System.out.println(game);
     }
 
